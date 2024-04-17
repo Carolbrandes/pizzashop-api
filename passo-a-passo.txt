@@ -1,0 +1,14 @@
+inicializar os containers:
+docker compose up -d 
+
+instalar as dependencias:
+bun i
+
+criacao de tabelas e colunas
+bun migrate
+
+popular banco de dados com dados ficticios
+bun seed
+
+para rodar app:
+bun dev
